@@ -1,0 +1,77 @@
+body{
+    margin-left: 8rem ;
+    margin-right: 8rem;
+}
+
+.dropdown{
+    margin-left: auto;
+}
+
+.Titulo{
+    text-align: center;
+    background: linear-gradient(to left,rgb(61, 194, 61), white) ;
+}
+
+.info{
+    height: 27rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem ;
+    text-align: center;
+    border:3px solid rgb(127, 187, 255);
+    border-radius:22px;
+}
+
+.twit{
+    margin-top: 1rem;
+    margin-bottom: 3rem ;
+}
+
+.imadmi{
+    height: 7rem;
+}
+
+.admis{
+    height: 6rem;
+
+}
+
+.inforedes{
+    height: 46rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem ;
+    text-align: center;
+    border:3px solid rgb(127, 187, 255);
+    border-radius:22px;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.infocredes{
+    height: 46rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem ;
+    text-align: center;
+    border:3px solid rgb(12, 16, 20);
+    border-radius:22px;
+    background-color: rgb(189, 245, 245);
+}
+
+.video{
+    border-radius:22px;
+    margin-top: 0.5rem;
+}
+
+.info-curso{
+    text-align: left;
+}
+
+.conm{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.info-idio{
+    text-align: left;
+}
