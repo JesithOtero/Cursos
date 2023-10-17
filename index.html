@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Es">
 
 <head>
   <meta charset="UTF-8">
@@ -103,11 +103,18 @@
       </div>
     </div>
 
+    <div>
+      <!-- Button trigger modal -->
+        <button type="button" class="btnm" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+        MAYOR INFORMACIÓN
+        </button>
+    </div>
+
     <div class="row">
       <div class="col-12">
-        <footer>
+        <footer class="footer-info">
           <div class="alert alert-info text-center">
-            <small>
+            <small >
               Carrera 6 No. 77- 305 Montería - Córdoba, Colombia  |  Código Postal: 230002   |  Nit: 891080031-3  | contacto@correo.unicordoba.edu.co La Universidad de Córdoba, es una Institución de educación superior sujeta a inspección y vigilancia por el Ministerio de Educación Nacional. <br>
               Todos los derechos reservados • Colombia - Suramérica • ​​Copyright © 2023
             </small>
@@ -217,5 +224,46 @@
     </div>
   </div>
 </body>
+
+
+
+<!-- Modal 4-->
+<div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">contacto</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="" method="get">
+          <div class="mb-3">
+          <label for="nom" class="form-label">Nombres:</label>
+              <input type="text" class="form-control" id="nom" name="nom" required>
+            </div> 
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email:</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                </div> 
+
+                <div class="mb-3">
+                  <label for="movil" class="form-label">Movil:</label>
+                      <input type="tel" class="form-control" id="movil" name="movil" required>
+                    </div> 
+                  
+                    <div class="mb-3">
+                      <label for="des" class="form-label">Descripción:</label>
+                          <textarea name="des" class="form-control" id="des"  rows="3"></textarea>
+                        </div> 
+                </div>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="bi bi-x"></i> Cerrar</button>
+             <button type="submit" class="btn btn-danger"><i class="bi bi-envelope-check"></i> Enviar</button>
+             </form>
+      </div>
+    </div>
+  </div>
+</div>
 
 </html>

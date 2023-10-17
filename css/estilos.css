@@ -32,7 +32,6 @@ body{
 
 .admis{
     height: 6rem;
-
 }
 
 .inforedes{
@@ -74,4 +73,8 @@ body{
 
 .info-idio{
     text-align: left;
+}
+
+.footer-info{
+    margin-top: 0.5rem;
 }
