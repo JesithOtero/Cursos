@@ -78,3 +78,18 @@ body{
 .footer-info{
     margin-top: 0.5rem;
 }
+
+.recomendacion{
+    height: 9rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem ;
+    border:3px solid rgb(63, 230, 12);
+    border-radius:22px;
+    background-color: rgb(211, 204, 108);
+}
+
+.imgrecom{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    width: 10%;
+}
